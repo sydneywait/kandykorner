@@ -54,84 +54,90 @@
     "candyTypes": [
         {
             "id": 1,
-            "type": "chocolate"
+            "type": "chocolate",
+            "image": "/images/candy/chocolate.png"
         },
         {
             "id": 2,
-            "type": "gummy"
+            "type": "gummy",
+            "image": "/images/candy/gummy.jpg"
         },
         {
             "id": 3,
-            "type": "licorice"
+            "type": "licorice",
+            "image": "/images/candy/licorice.jpg"
         },
         {
             "id": 4,
-            "type": "gum"
+            "type": "gum",
+            "image": "/images/candy/gum.png"
         },
         {
             "id": 5,
-            "type": "jawbreaker"
+            "type": "lolly",
+            "image": "/images/candy/lolly.png"
         },
         {
             "id": 6,
-            "type": "caramel"
+            "type": "caramel",
+            "image": "/images/candy/caramel.jpg"
         }
     ],
     "candies": [
         {
             "id": 1,
             "name": "Whizz-banger",
-            "typeId": "1"
+            "candyTypeId": "1"
         },
         {
             "id": 2,
             "name": "Squishy-bears",
-            "typeId": "2"
+            "candyTypeId": "2"
         },
         {
             "id": 3,
             "name": "Chocolate Explosion",
-            "typeId": "3"
+            "candyTypeId": "3"
         },
         {
             "id": 4,
             "name": "Teeth-Wrecker",
-            "typeId": "4"
+            "candyTypeId": "4"
         },
         {
             "id": 5,
             "name": "Dulce",
-            "typeId": "5"
+            "candyTypeId": "5"
         },
         {
             "id": 6,
             "name": "Whippersnappers",
-            "typeId": "3"
+            "candyTypeId": "3"
         },
         {
             "id": 7,
             "name": "Breathalyzer",
-            "typeId": "4"
+            "candyTypeId": "4"
         },
         {
             "id": 8,
             "name": "Silencer",
-            "typeId": "5"
+            "candyTypeId": "5"
         },
         {
             "id": 9,
             "name": "Dark surprise",
-            "typeId": "1"
+            "candyTypeId": "1"
         },
         {
             "id": 10,
             "name": "Snapper",
-            "typeId": "3"
+            "candyTypeId": "3"
         },
         {
             "id": 11,
             "name": "Juju-squishers",
-            "typeId": "2"
+            "candyTypeId": "2"
         }
     ]
 }
