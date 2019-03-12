@@ -4,6 +4,10 @@ export default {
         return fetch("http://localhost:5002/candies/?_expand=candyType")
             .then(r => r.json())
     },
+    getAllTypes: () => {
+      return fetch("http://localhost:5002/candyTypes")
+          .then(r => r.json())
+  },
     getSingleCandy: (id) => {
         return fetch(`http://localhost:5002/candies/${id}`)
             .then(r => r.json())

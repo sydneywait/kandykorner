@@ -54,32 +54,32 @@
     "candyTypes": [
         {
             "id": 1,
-            "type": "chocolate",
+            "name": "chocolate",
             "image": "/images/candy/chocolate.png"
         },
         {
             "id": 2,
-            "type": "gummy",
+            "name": "gummy",
             "image": "/images/candy/gummy.jpg"
         },
         {
             "id": 3,
-            "type": "licorice",
+            "name": "licorice",
             "image": "/images/candy/licorice.jpg"
         },
         {
             "id": 4,
-            "type": "gum",
+            "name": "gum",
             "image": "/images/candy/gum.png"
         },
         {
             "id": 5,
-            "type": "lolly",
+            "name": "lolly",
             "image": "/images/candy/lolly.png"
         },
         {
             "id": 6,
-            "type": "caramel",
+            "name": "caramel",
             "image": "/images/candy/caramel.jpg"
         }
     ],
