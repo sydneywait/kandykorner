@@ -32,9 +32,9 @@ export default class CandyList extends Component {
                             return <div key={candy.id} className="card">
                                 <div className="candyCard">
                                     <h5 className="card-title">
-                                        <img src={window.location.origin + candy.candyType.image} className="icon--candy" alt="error" />
+                                        <img src={window.location.origin + candy.type.image} className="icon--candy" alt="error" />
                                         <p>{candy.name}</p>
-                                        <Link className="nav-link" to={`/candy/${candy.id}`}>Details</Link>
+                                        <Link className="nav-link" to={`/candies/${candy.id}`}>Details</Link>
                                     </h5>
                                 </div>
                             </div>

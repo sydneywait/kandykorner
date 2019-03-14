@@ -1,143 +1,148 @@
 {
-    "stores": [
-        {
-            "id": 1,
-            "location": "West Broad Street"
-        },
-        {
-            "id": 2,
-            "location": "South Elm Street"
-        },
-        {
-            "id": 3,
-            "location": "North Foster Street"
-        },
-        {
-            "id": 4,
-            "location": "East Main Street"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Sally"
-        },
-        {
-            "id": 2,
-            "name": "Susan"
-        },
-        {
-            "id": 3,
-            "name": "Kathy"
-        },
-        {
-            "id": 4,
-            "name": "Paul"
-        },
-        {
-            "id": 5,
-            "name": "Jim"
-        },
-        {
-            "id": 6,
-            "name": "Thomas"
-        },
-        {
-            "id": 7,
-            "name": "Hank"
-        },
-        {
-            "id": 8,
-            "name": "Steven"
-        }
-    ],
-    "candyTypes": [
-        {
-            "id": 1,
-            "name": "chocolate",
-            "image": "/images/candy/chocolate.png"
-        },
-        {
-            "id": 2,
-            "name": "gummy",
-            "image": "/images/candy/gummy.jpg"
-        },
-        {
-            "id": 3,
-            "name": "licorice",
-            "image": "/images/candy/licorice.jpg"
-        },
-        {
-            "id": 4,
-            "name": "gum",
-            "image": "/images/candy/gum.png"
-        },
-        {
-            "id": 5,
-            "name": "lolly",
-            "image": "/images/candy/lolly.png"
-        },
-        {
-            "id": 6,
-            "name": "caramel",
-            "image": "/images/candy/caramel.jpg"
-        }
-    ],
-    "candies": [
-        {
-            "id": 1,
-            "name": "Whizz-banger",
-            "candyTypeId": "1"
-        },
-        {
-            "id": 2,
-            "name": "Squishy-bears",
-            "candyTypeId": "2"
-        },
-        {
-            "id": 3,
-            "name": "Chocolate Explosion",
-            "candyTypeId": "3"
-        },
-        {
-            "id": 4,
-            "name": "Teeth-Wrecker",
-            "candyTypeId": "4"
-        },
-        {
-            "id": 5,
-            "name": "Dulce",
-            "candyTypeId": "5"
-        },
-        {
-            "id": 6,
-            "name": "Whippersnappers",
-            "candyTypeId": "3"
-        },
-        {
-            "id": 7,
-            "name": "Breathalyzer",
-            "candyTypeId": "4"
-        },
-        {
-            "id": 8,
-            "name": "Silencer",
-            "candyTypeId": "5"
-        },
-        {
-            "id": 9,
-            "name": "Dark surprise",
-            "candyTypeId": "1"
-        },
-        {
-            "id": 10,
-            "name": "Snapper",
-            "candyTypeId": "3"
-        },
-        {
-            "id": 11,
-            "name": "Juju-squishers",
-            "candyTypeId": "2"
-        }
-    ]
+  "stores": [
+    {
+      "id": 1,
+      "location": "West Broad Street"
+    },
+    {
+      "id": 2,
+      "location": "South Elm Street"
+    },
+    {
+      "id": 3,
+      "location": "North Foster Street"
+    },
+    {
+      "id": 4,
+      "location": "East Main Street"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sally"
+    },
+    {
+      "id": 2,
+      "name": "Susan"
+    },
+    {
+      "id": 3,
+      "name": "Kathy"
+    },
+    {
+      "id": 4,
+      "name": "Paul"
+    },
+    {
+      "id": 5,
+      "name": "Jim"
+    },
+    {
+      "id": 6,
+      "name": "Thomas"
+    },
+    {
+      "id": 7,
+      "name": "Hank"
+    },
+    {
+      "id": 8,
+      "name": "Steven"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "chocolate",
+      "image": "/images/candy/chocolate.png"
+    },
+    {
+      "id": 2,
+      "name": "gummy",
+      "image": "/images/candy/gummy.jpg"
+    },
+    {
+      "id": 3,
+      "name": "licorice",
+      "image": "/images/candy/licorice.jpg"
+    },
+    {
+      "id": 4,
+      "name": "gum",
+      "image": "/images/candy/gum.png"
+    },
+    {
+      "id": 5,
+      "name": "lolly",
+      "image": "/images/candy/lolly.png"
+    },
+    {
+      "id": 6,
+      "name": "caramel",
+      "image": "/images/candy/caramel.jpg"
+    }
+  ],
+  "candies": [
+    {
+      "id": 1,
+      "name": "Whizz-banger",
+      "typeId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Squishy-bears",
+      "typeId": "2"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Explosion",
+      "typeId": "3"
+    },
+    {
+      "id": 4,
+      "name": "Teeth-Wrecker",
+      "typeId": "4"
+    },
+    {
+      "id": 5,
+      "name": "Dulce",
+      "typeId": "5"
+    },
+    {
+      "id": 6,
+      "name": "Whippersnappers",
+      "typeId": "3"
+    },
+    {
+      "id": 7,
+      "name": "Breathalyzer",
+      "typeId": "4"
+    },
+    {
+      "id": 8,
+      "name": "Silencer",
+      "typeId": "5"
+    },
+    {
+      "id": 9,
+      "name": "Dark surprise",
+      "typeId": "1"
+    },
+    {
+      "id": 10,
+      "name": "Snapper",
+      "typeId": "3"
+    },
+    {
+      "id": 11,
+      "name": "Juju-squishers",
+      "typeId": "2"
+    },
+    {
+      "name": "bom",
+      "typeId": 2,
+      "id": 12
+    }
+  ]
 }

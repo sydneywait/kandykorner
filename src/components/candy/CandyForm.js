@@ -7,12 +7,13 @@ export default class CandyForm extends Component {
     // Set initial state
     state = {
         name: "",
-        candyTypeId: ""
+        typeId: ""
 
     };
 
     // Update state whenever an input field is edited
     handleFieldChange = evt => {
+        evt.preventDefault();
         const stateToChange = {};
         stateToChange[evt.target.id] = evt.target.value;
         this.setState(stateToChange);
@@ -22,12 +23,12 @@ export default class CandyForm extends Component {
           Local method for validation, creating Employee object, and
           invoking the function reference passed from parent component
        */
-    constructNewcandy = evt => {
-        evt.preventDefault();
+    constructNewCandy =() => {
+        // evt.preventDefault();
 
             const candy = {
                 name: this.state.name,
-                candyTypeId: parseInt(this.state.candyTypeId),
+                typeId: parseInt(this.state.typeId),
             };
             console.log(candy)
 
@@ -54,11 +55,11 @@ export default class CandyForm extends Component {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="CandyType"></label>
+                        <label htmlFor="type"></label>
                         <select
                             defaultValue=""
                             name="type"
-                            id="candyTypeId"
+                            id="typeId"
                             onChange={this.handleFieldChange}
                         >
                             <option value="">Select a Candy Type</option>
