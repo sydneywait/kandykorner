@@ -8,6 +8,7 @@ import StoreAPIManager from "./modules/StoreManager"
 import EmployeeAPIManager from "./modules/EmployeeManager"
 import CandyForm from './candy/CandyForm'
 import CandyDetail from './candy/CandyDetail'
+import CandyEditForm from './candy/CandyEditForm'
 
 
 
@@ -59,6 +60,20 @@ export default class ApplicationViews extends Component {
         },
     }
 
+    edit={
+        editCandy: (object) => {
+            CandyAPIManager.editCandy(object)
+            .then(() => CandyAPIManager.getAllCandies())
+            .then(candies => {
+              this.setState({
+                candies: candies
+                })
+            })
+        },
+
+
+    }
+
 
 
     render() {
@@ -81,11 +96,20 @@ export default class ApplicationViews extends Component {
                     types={this.state.types}
                     addCandy={this.add.addCandy}/>
                 }} />
-                <Route path="/candies/:candyId(\d+)" render={(props) => {
+                <Route exact path="/candies/:candyId(\d+)" render={(props) => {
                     return <CandyDetail
                     {...props}
                     candies={this.state.candies}
                     deleteCandy = {this.delete.deleteCandy}
+                    />
+                }} />
+                <Route path="/candies/:candyId(\d+)/edit" render={(props) => {
+                    return <CandyEditForm
+                    {...props}
+                    types={this.state.types}
+                    candies={this.state.candies}
+                    editCandy = {this.edit.editCandy}
+
                     />
                 }} />
             </React.Fragment>

@@ -27,5 +27,14 @@ export default {
           },
           body: JSON.stringify(newCandy)
         }).then(data => data.json())
+      },
+      editCandy(editedCandy) {
+        return fetch(`http://localhost:5002/candies/${editedCandy.id}`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(editedCandy)
+        }).then(data => data.json());
       }
 }

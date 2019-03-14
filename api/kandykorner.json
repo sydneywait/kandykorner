@@ -85,11 +85,6 @@
   ],
   "candies": [
     {
-      "id": 1,
-      "name": "Whizz-banger",
-      "typeId": "1"
-    },
-    {
       "id": 2,
       "name": "Squishy-bears",
       "typeId": "2"
@@ -97,7 +92,7 @@
     {
       "id": 3,
       "name": "Chocolate Explosion",
-      "typeId": "3"
+      "typeId": 3
     },
     {
       "id": 4,
@@ -107,7 +102,7 @@
     {
       "id": 5,
       "name": "Dulce",
-      "typeId": "5"
+      "typeId": 4
     },
     {
       "id": 6,
